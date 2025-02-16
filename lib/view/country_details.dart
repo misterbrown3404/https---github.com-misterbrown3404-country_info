@@ -43,7 +43,7 @@ class CountryDetailsPage extends StatelessWidget {
             _infoTile("Capital", country.capital?.isNotEmpty == true ? country.capital!.first : 'No capital'),
             _infoTile("Language", country.languages.toString()),
             
-            SizedBox(height: 15,),
+            const SizedBox(height: 15,),
 
             _infoTile("Official Name", country.name?.official ?? 'N/A'),
             _infoTile("Ethinic Group", country.translations.toString()),
